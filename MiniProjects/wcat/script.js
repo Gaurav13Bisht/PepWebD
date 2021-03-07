@@ -29,8 +29,9 @@ const fs = require("fs");       // Initialising fs : FILESYSTEM
 // }
 
 
+// READING :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-// THIS IS FOR NOT PRINTING OF EMPTY LINES IN FILES :
+// THIS IS FOR NOT PRINTING OF EMPTY LINES IN FILES AKA "-s" :
 // let options = rem.filter(function (data) {
 //     if (data.startsWith("-"))
 //         return true;
@@ -59,7 +60,182 @@ const fs = require("fs");       // Initialising fs : FILESYSTEM
 
 
 
-// THIS IS FOR NUMBERING OF LINES IN ALL FILES (H.W.):
+// THIS IS FOR NUMBERING OF LINES IN ALL FILES AKA "-n" and "-s" support to (H.W.):
+// let options = rem.filter(function (data) {
+//     if (data.startsWith("-"))
+//         return true;
+// });
+
+
+// let files = rem.filter(function (data) {
+//     if (!data.startsWith("-"))
+//         return true;
+// });
+
+// var num = 1;
+// for (let idx in files) {
+//     let data = fs.readFileSync(files[idx], "utf-8");
+//     if (options.includes("-n")) {
+//         if (options.includes("-s")) {
+//             let lines = data.split("\r\n");
+//             for (let i in lines) {
+//                 if (lines[i] != "") {
+//                     console.log(num + "." + lines[i]);
+//                     num++;
+//                 }
+//             }
+//         }
+//         else {
+//             let lines = data.split("\r\n");
+//             for (let i in lines) {
+//                 console.log(num + "." + lines[i]);
+//                 num++;
+//             }
+//         }
+
+//     }
+//     else {
+//         if (options.includes("-s")) {
+//             let lines = data.split("\r\n");
+//             for (let i in lines) {
+//                 if (lines[i] != "")
+//                     console.log(lines[i]);
+//             }
+//         }
+//         else
+//             console.log(data);
+
+//     }
+// }
+
+// // THIS IS FOR NUMBERING OF only non empty LINES IN ALL FILES AKA "-b" and "-n" support:
+// If both -b and -n comes then priority will be given to the first occuring command.
+
+// -b will result in numbering of lines but not numbering blank lines and also wont remove the blank lines.
+
+// let options = rem.filter(function (data) {
+//     if (data.startsWith("-"))
+//         return true;
+// });
+
+
+// let files = rem.filter(function (data) {
+//     if (!data.startsWith("-"))
+//         return true;
+// });
+
+// var num = 1;
+// for (let idx in files) {
+//     let data = fs.readFileSync(files[idx], "utf-8");
+//     if ((options.includes("-n") && !options.includes("-b")) || (options.includes("-b") && options.includes("-n") && options.indexOf("-n") < options.indexOf("-b"))) {
+//         if (options.includes("-s")) {
+//             let lines = data.split("\r\n");
+//             for (let i in lines) {
+//                 if (lines[i] != "") {
+//                     console.log(num + "." + lines[i]);
+//                     num++;
+//                 }
+//             }
+//         }
+//         else {
+//             let lines = data.split("\r\n");
+//             for (let i in lines) {
+//                 console.log(num + "." + lines[i]);
+//                 num++;
+//             }
+//         }
+
+//     }
+//     else if (options.includes("-b")) {
+//         if (options.includes("-s")) {
+//             let lines = data.split("\r\n");
+//             for (let i in lines) {
+//                 if (lines[i] != "") {
+//                     console.log(num + "." + lines[i]);
+//                     num++;
+//                 }
+//             }
+//         }
+//         else {
+//             let lines = data.split("\r\n");
+//             for (let i in lines) {
+//                 if (lines[i] != "") {
+//                     console.log(num + "." + lines[i]);
+//                     num++;
+//                 }
+//                 else
+//                     console.log(lines[i]);
+//             }
+//         }
+//     }
+//     else {
+//         if (options.includes("-s")) {
+//             let lines = data.split("\r\n");
+//             for (let i in lines) {
+//                 if (lines[i] != "")
+//                     console.log(lines[i]);
+//             }
+//         }
+//         else
+//             console.log(data);
+
+//     }
+// }
+
+
+
+// WRITING ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+// Replacing text with "-w" :
+
+// let options = rem.filter(function (data) {
+//     if (data.startsWith("-"))
+//         return true;
+// });
+
+
+// let files = rem.filter(function (data) {
+//     if (!data.startsWith("-"))
+//         return true;
+// });
+
+// if(options.length != 1 || files.length != 2 || rem.indexOf("-w") != 1){
+//     console.log("Cannot Process !!!!!!!!!!!");
+//     return;
+// }
+
+// let data = fs.readFileSync(files[0], "utf-8");
+// fs.writeFileSync(files[1], data);
+// console.log(fs.readFileSync(files[1], "utf-8"));
+
+
+
+// Appending into file with "-a" :
+
+// let options = rem.filter(function (data) {
+//     if (data.startsWith("-"))
+//         return true;
+// });
+
+
+// let files = rem.filter(function (data) {
+//     if (!data.startsWith("-"))
+//         return true;
+// });
+
+// if (options.length != 1 || files.length != 2 || rem.indexOf("-a") != 1) {
+//     console.log("Cannot Process !!!!!!!!!!!");
+//     return;
+// }
+
+// let data1 = fs.readFileSync(files[0], "utf-8");
+// let data2 = fs.readFileSync(files[1], "utf-8");
+// fs.writeFileSync(files[1], data2 + "\n" + data1);
+// console.log(fs.readFileSync(files[1], "utf-8"));
+
+
+// Combining -w and -s (wcat abc.txt -ws abc2.txt):
+
 let options = rem.filter(function (data) {
     if (data.startsWith("-"))
         return true;
@@ -71,38 +247,27 @@ let files = rem.filter(function (data) {
         return true;
 });
 
-var num = 1;
-for (let idx in files) {
-    let data = fs.readFileSync(files[idx], "utf-8");
-    if (options.includes("-n")) {
-        if (options.includes("-s")) {
-            let lines = data.split("\r\n");
-            for (let i in lines) {
-                if (lines[i] != "") {
-                    console.log(num + "." + lines[i]);
-                    num++;
-                }
-            }
-        }
-        else {
-            let lines = data.split("\r\n");
-            for (let i in lines) {
-                console.log(num + "." + lines[i]);
-                num++;
-            }
-        }
 
-    }
-    else {
-        if (options.includes("-s")) {
-            let lines = data.split("\r\n");
-            for (let i in lines) {
-                if (lines[i] != "")
-                    console.log(lines[i]);
-            }
-        }
-        else
-            console.log(data);
-
-    }
+if (options.length != 1 || files.length != 2 || rem.indexOf("-ws") != 1) {
+    console.log("Cannot Process !!!!!!!!!!!");
+    return;
 }
+
+fs.writeFileSync("temp.txt", "");
+
+let data = fs.readFileSync(files[0], "utf-8");
+let lines = data.split("\r\n");
+for (let i in lines) {
+    if (lines[i] != "") {
+        let data1 = fs.readFileSync("temp.txt", "utf-8");
+        if (i != lines.length - 1)
+            fs.writeFileSync("temp.txt", data1 + lines[i] + "\r\n");
+        else
+            fs.writeFileSync("temp.txt", data1 + lines[i]);
+    }
+
+}
+let datat = fs.readFileSync("temp.txt", "utf-8");
+fs.writeFileSync(files[1], datat);
+console.log(fs.readFileSync(files[1], "utf-8"));
+
