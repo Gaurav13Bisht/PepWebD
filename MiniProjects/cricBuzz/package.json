@@ -1,0 +1,16 @@
+{
+  "name": "cricbuzz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {
+    "chromedriver": "^89.0.0",
+    "selenium-webdriver": "^4.0.0-beta.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
