@@ -236,38 +236,58 @@ const fs = require("fs");       // Initialising fs : FILESYSTEM
 
 // Combining -w and -s (wcat abc.txt -ws abc2.txt):
 
-let options = rem.filter(function (data) {
-    if (data.startsWith("-"))
-        return true;
-});
+// let options = rem.filter(function (data) {
+//     if (data.startsWith("-"))
+//         return true;
+// });
 
 
-let files = rem.filter(function (data) {
-    if (!data.startsWith("-"))
-        return true;
-});
+// let files = rem.filter(function (data) {
+//     if (!data.startsWith("-"))
+//         return true;
+// });
 
 
-if (options.length != 1 || files.length != 2 || rem.indexOf("-ws") != 1) {
-    console.log("Cannot Process !!!!!!!!!!!");
-    return;
-}
+// if (options.length != 1 || files.length != 2 || rem.indexOf("-ws") != 1) {
+//     console.log("Cannot Process !!!!!!!!!!!");
+//     return;
+// }
 
-fs.writeFileSync("temp.txt", "");
+// fs.writeFileSync("temp.txt", "");
 
-let data = fs.readFileSync(files[0], "utf-8");
-let lines = data.split("\r\n");
-for (let i in lines) {
-    if (lines[i] != "") {
-        let data1 = fs.readFileSync("temp.txt", "utf-8");
-        if (i != lines.length - 1)
-            fs.writeFileSync("temp.txt", data1 + lines[i] + "\r\n");
-        else
-            fs.writeFileSync("temp.txt", data1 + lines[i]);
+// let data = fs.readFileSync(files[0], "utf-8");
+// let lines = data.split("\r\n");
+// for (let i in lines) {
+//     if (lines[i] != "") {
+//         let data1 = fs.readFileSync("temp.txt", "utf-8");
+//         if (i != lines.length - 1)
+//             fs.writeFileSync("temp.txt", data1 + lines[i] + "\r\n");
+//         else
+//             fs.writeFileSync("temp.txt", data1 + lines[i]);
+//     }
+
+// }
+// let datat = fs.readFileSync("temp.txt", "utf-8");
+// fs.writeFileSync(files[1], datat);
+// console.log(fs.readFileSync(files[1], "utf-8"));
+
+    
+    if (rem.length > 1) {
+        console.log("Cannot Process !!!!!!!!!!!");
+        return;
     }
-
-}
-let datat = fs.readFileSync("temp.txt", "utf-8");
-fs.writeFileSync(files[1], datat);
-console.log(fs.readFileSync(files[1], "utf-8"));
-
+    
+    var count = 0;
+    let data = fs.readFileSync(rem[0], "utf-8");
+    let lines = data.split("\r\n");
+    for (let i in lines) {
+        let line = lines[i];
+        for(let k in line){
+            if(line[k] == 'n')
+                count++;
+        }
+    
+    }
+    console.log(count);
+    
+    
