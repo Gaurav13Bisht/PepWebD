@@ -1,0 +1,807 @@
+[
+    {
+        "topicUrl": "https://github.com/topics/electron",
+        "projects": [
+            {
+                "projectUrl": "https://github.com/microsoft/vscode",
+                "issues": [
+                    {
+                        "heading": "Fail to download VSCode",
+                        "url": "https://github.com/microsoft/vscode/issues/119317"
+                    },
+                    {
+                        "heading": "JSON Settings editor do not show remote settings",
+                        "url": "https://github.com/microsoft/vscode/issues/119316"
+                    },
+                    {
+                        "heading": "Test: Window Indicator for Virtual workspaces",
+                        "url": "https://github.com/microsoft/vscode/issues/119313"
+                    },
+                    {
+                        "heading": "Remember width of panel on workspace level (and/or add setting)",
+                        "url": "https://github.com/microsoft/vscode/issues/119312"
+                    },
+                    {
+                        "heading": "VS Code Task with CustomExecution blocks other other tasks",
+                        "url": "https://github.com/microsoft/vscode/issues/119311"
+                    },
+                    {
+                        "heading": "Replace the no-update dialog box with a pop-up notification",
+                        "url": "https://github.com/microsoft/vscode/issues/119310"
+                    },
+                    {
+                        "heading": "Test: Use Built-in TypeScript Semantic Highlighting",
+                        "url": "https://github.com/microsoft/vscode/issues/119309"
+                    },
+                    {
+                        "heading": "Do not keep IEditor in memory",
+                        "url": "https://github.com/microsoft/vscode/issues/119308"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/electron/electron",
+                "issues": [
+                    {
+                        "heading": "京东抢购助手已不能使用。",
+                        "url": "https://github.com/electron/electron/issues/28291"
+                    },
+                    {
+                        "heading": "The 'ready-to-show' event is not triggered under MacOS",
+                        "url": "https://github.com/electron/electron/issues/28290"
+                    },
+                    {
+                        "heading": "[Bug]: Getting blank screen after reload",
+                        "url": "https://github.com/electron/electron/issues/28289"
+                    },
+                    {
+                        "heading": "[Bug]: requestHeaders is undefined in onHeadersReceived",
+                        "url": "https://github.com/electron/electron/issues/28287"
+                    },
+                    {
+                        "heading": "[Bug]: win.loadUrl() not triggered in a windows application in .scr",
+                        "url": "https://github.com/electron/electron/issues/28275"
+                    },
+                    {
+                        "heading": "[Bug]:webContents.print() with custom margin hides header and footer content",
+                        "url": "https://github.com/electron/electron/issues/28270"
+                    },
+                    {
+                        "heading": "[Bug]: setImmediate does not make a new task",
+                        "url": "https://github.com/electron/electron/issues/28261"
+                    },
+                    {
+                        "heading": "[Bug]: window.close from inside a page in a BrowserView will close the entire window",
+                        "url": "https://github.com/electron/electron/issues/28260"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/atom/atom",
+                "issues": [
+                    {
+                        "heading": "ShipIt_stderr.log has no upper bounds in size and can grow to dozens of Gb",
+                        "url": "https://github.com/atom/atom/issues/22049"
+                    },
+                    {
+                        "heading": "Escaped characters in Ruby regex throws off color syntax highlighter",
+                        "url": "https://github.com/atom/atom/issues/22041"
+                    },
+                    {
+                        "heading": "Recent files appear when right-clicking Atom application",
+                        "url": "https://github.com/atom/atom/issues/22040"
+                    },
+                    {
+                        "heading": "KeePassXC unlock dialog opens on Attom start.",
+                        "url": "https://github.com/atom/atom/issues/22039"
+                    },
+                    {
+                        "heading": "Uncaught Error: ENOENT: no such file or directory, lstat '~/AppData\\Local\\atom\\app-1.54.0\\transla...",
+                        "url": "https://github.com/atom/atom/issues/22035"
+                    },
+                    {
+                        "heading": "Uncaught Error: kill EPERM",
+                        "url": "https://github.com/atom/atom/issues/22033"
+                    },
+                    {
+                        "heading": "Uncaught Error: ENOENT: no such file or directory, lstat '~/AppData\\Local\\atom\\app-1.55.0\\CSS - M...",
+                        "url": "https://github.com/atom/atom/issues/22030"
+                    },
+                    {
+                        "heading": "Uncaught Error: dlopen(~/Codes/Atom.app/Contents/Resources/app.asar.unpacked/node_modules/keyboar...",
+                        "url": "https://github.com/atom/atom/issues/22029"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/GitSquared/edex-ui",
+                "issues": [
+                    {
+                        "heading": "always run on my laptop screen but my prime screen is that extend one",
+                        "url": "https://github.com/GitSquared/edex-ui/issues/1092"
+                    },
+                    {
+                        "heading": "listen EACCES: permission denied 0.0.0.0:3000",
+                        "url": "https://github.com/GitSquared/edex-ui/issues/1091"
+                    },
+                    {
+                        "heading": "Windows bug when I start eDEX-UI",
+                        "url": "https://github.com/GitSquared/edex-ui/issues/1087"
+                    },
+                    {
+                        "heading": "gyp info spawn args",
+                        "url": "https://github.com/GitSquared/edex-ui/issues/1086"
+                    },
+                    {
+                        "heading": "Progressive consumption of Memory/RAM",
+                        "url": "https://github.com/GitSquared/edex-ui/issues/1066"
+                    },
+                    {
+                        "heading": "Child process issue with v2.2.6 on Windows",
+                        "url": "https://github.com/GitSquared/edex-ui/issues/1057"
+                    },
+                    {
+                        "heading": "Win 10 WSL Ubuntu 18.04 Binary launch failure",
+                        "url": "https://github.com/GitSquared/edex-ui/issues/1055"
+                    },
+                    {
+                        "heading": "Fix CI pipeline for MacOS arm64 target",
+                        "url": "https://github.com/GitSquared/edex-ui/issues/1054"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/nativefier/nativefier",
+                "issues": [
+                    {
+                        "heading": "i cannot import html files ",
+                        "url": "https://github.com/nativefier/nativefier/issues/1137"
+                    },
+                    {
+                        "heading": "Detect and automatically use armv7l/arm64 arch",
+                        "url": "https://github.com/nativefier/nativefier/issues/1135"
+                    },
+                    {
+                        "heading": "Add a --upgrade option that takes an existing app path, extracts options from nativefier.json and recreates the app",
+                        "url": "https://github.com/nativefier/nativefier/issues/1131"
+                    },
+                    {
+                        "heading": "[RFC] nativefier-catalog and interactivity",
+                        "url": "https://github.com/nativefier/nativefier/issues/1130"
+                    },
+                    {
+                        "heading": "Support mapping controller buttons to global shortcuts",
+                        "url": "https://github.com/nativefier/nativefier/issues/1119"
+                    },
+                    {
+                        "heading": "Globally installing Nativefier breaks Linux systems by changing sudo permissions",
+                        "url": "https://github.com/nativefier/nativefier/issues/1117"
+                    },
+                    {
+                        "heading": "Whatsapp Web reports it needs chrome 60+ even though I have chromium 86",
+                        "url": "https://github.com/nativefier/nativefier/issues/1112"
+                    },
+                    {
+                        "heading": "ARM64 Nativefier is broken for Omnifocus for Web",
+                        "url": "https://github.com/nativefier/nativefier/issues/1111"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/agalwood/Motrix",
+                "issues": [
+                    {
+                        "heading": "希望能在新版本添加Web UI功能",
+                        "url": "https://github.com/agalwood/Motrix/issues/883"
+                    },
+                    {
+                        "heading": "win7 x64中有内存泄漏+丢失任务",
+                        "url": "https://github.com/agalwood/Motrix/issues/882"
+                    },
+                    {
+                        "heading": "Update electron to 12 to support Wayland",
+                        "url": "https://github.com/agalwood/Motrix/issues/881"
+                    },
+                    {
+                        "heading": "Motrix 启动后崩溃",
+                        "url": "https://github.com/agalwood/Motrix/issues/880"
+                    },
+                    {
+                        "heading": "mac 不能下载到外置硬盘 提示 #17",
+                        "url": "https://github.com/agalwood/Motrix/issues/878"
+                    },
+                    {
+                        "heading": "Allow binding to network interface",
+                        "url": "https://github.com/agalwood/Motrix/issues/874"
+                    },
+                    {
+                        "heading": "使用发现的两个 Bug",
+                        "url": "https://github.com/agalwood/Motrix/issues/873"
+                    },
+                    {
+                        "heading": "使用ipv6下载失败",
+                        "url": "https://github.com/agalwood/Motrix/issues/872"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/nylas/nylas-mail",
+                "issues": [
+                    {
+                        "heading": "My first",
+                        "url": "https://github.com/nylas/nylas-mail/issues/3678"
+                    },
+                    {
+                        "heading": "Stop spamming, read the regulations of GDPR [AGAIN]",
+                        "url": "https://github.com/nylas/nylas-mail/issues/3677"
+                    },
+                    {
+                        "heading": "increase the language plz",
+                        "url": "https://github.com/nylas/nylas-mail/issues/3667"
+                    },
+                    {
+                        "heading": "Build Nylas Mail from Source.",
+                        "url": "https://github.com/nylas/nylas-mail/issues/3665"
+                    },
+                    {
+                        "heading": "Tray Icon doesn't work in ubuntu 18.04",
+                        "url": "https://github.com/nylas/nylas-mail/issues/3664"
+                    },
+                    {
+                        "heading": "Logo for Your Project",
+                        "url": "https://github.com/nylas/nylas-mail/issues/3663"
+                    },
+                    {
+                        "heading": "Warning: Possible EventEmitter memory leak detected. 51 BUG",
+                        "url": "https://github.com/nylas/nylas-mail/issues/3662"
+                    },
+                    {
+                        "heading": "After zooming to 1.5 times, input method candidate window can not be positioned accurately.",
+                        "url": "https://github.com/nylas/nylas-mail/issues/3661"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/typeorm/typeorm",
+                "issues": [
+                    {
+                        "heading": "same rows in views being uniqueized",
+                        "url": "https://github.com/typeorm/typeorm/issues/7478"
+                    },
+                    {
+                        "heading": "leftJoinAndSelect nested property returns null if all fields except primary key are null",
+                        "url": "https://github.com/typeorm/typeorm/issues/7476"
+                    },
+                    {
+                        "heading": "syncronize:true throws QueryFailedError: column \"user_alias\" of relation \"users\" contains null values",
+                        "url": "https://github.com/typeorm/typeorm/issues/7475"
+                    },
+                    {
+                        "heading": "Scan migration directory only if migrationRun = true.",
+                        "url": "https://github.com/typeorm/typeorm/issues/7474"
+                    },
+                    {
+                        "heading": "Row Level Security -- setting configuration parameters (ie session variables) in findOptions, and using .*?QueryBuilder",
+                        "url": "https://github.com/typeorm/typeorm/issues/7472"
+                    },
+                    {
+                        "heading": "Inserted record in MySQL not being returned when using a custom primary key column",
+                        "url": "https://github.com/typeorm/typeorm/issues/7470"
+                    },
+                    {
+                        "heading": "On create not use default value",
+                        "url": "https://github.com/typeorm/typeorm/issues/7469"
+                    },
+                    {
+                        "heading": "printSql doesn't work",
+                        "url": "https://github.com/typeorm/typeorm/issues/7468"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topicUrl": "https://github.com/topics/chrome-extension",
+        "projects": [
+            {
+                "projectUrl": "https://github.com/sindresorhus/refined-github",
+                "issues": [
+                    {
+                        "heading": "Disable image auto-links if they point to themselves",
+                        "url": "https://github.com/sindresorhus/refined-github/issues/4132"
+                    },
+                    {
+                        "heading": "The *feature-linkification* _part_ of format-conversation-titles appears to be broken",
+                        "url": "https://github.com/sindresorhus/refined-github/issues/4129"
+                    },
+                    {
+                        "heading": "collapse-markdown-sections should not apply to links",
+                        "url": "https://github.com/sindresorhus/refined-github/issues/4126"
+                    },
+                    {
+                        "heading": "Limit PR merge status items to modest size",
+                        "url": "https://github.com/sindresorhus/refined-github/issues/4124"
+                    },
+                    {
+                        "heading": "linkify-full-profile-readme-title is broken",
+                        "url": "https://github.com/sindresorhus/refined-github/issues/4122"
+                    },
+                    {
+                        "heading": "conflict-marker icon is different from the screenshot.",
+                        "url": "https://github.com/sindresorhus/refined-github/issues/4117"
+                    },
+                    {
+                        "heading": "Use the new toast component in restore-file",
+                        "url": "https://github.com/sindresorhus/refined-github/issues/4113"
+                    },
+                    {
+                        "heading": "PRs merge box automatically open (after opening them once)",
+                        "url": "https://github.com/sindresorhus/refined-github/issues/4101"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/iamadamdev/bypass-paywalls-chrome",
+                "issues": []
+            },
+            {
+                "projectUrl": "https://github.com/checkly/headless-recorder",
+                "issues": [
+                    {
+                        "heading": "Typing into date inputs types only on the yyyy section.",
+                        "url": "https://github.com/checkly/headless-recorder/issues/100"
+                    },
+                    {
+                        "heading": "recording halts/crashes on some pages/interactions",
+                        "url": "https://github.com/checkly/headless-recorder/issues/90"
+                    },
+                    {
+                        "heading": "Firefox support",
+                        "url": "https://github.com/checkly/headless-recorder/issues/89"
+                    },
+                    {
+                        "heading": "Handle Assertions",
+                        "url": "https://github.com/checkly/headless-recorder/issues/87"
+                    },
+                    {
+                        "heading": "Headless Recorder Roadmap & Survey Results",
+                        "url": "https://github.com/checkly/headless-recorder/issues/83"
+                    },
+                    {
+                        "heading": "Record 'copy' and 'paste' keystrokes?",
+                        "url": "https://github.com/checkly/headless-recorder/issues/80"
+                    },
+                    {
+                        "heading": "Drag & Drop support",
+                        "url": "https://github.com/checkly/headless-recorder/issues/71"
+                    },
+                    {
+                        "heading": "Custom data attribute not working or misunderstand its usage?",
+                        "url": "https://github.com/checkly/headless-recorder/issues/64"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/unbug/codelf",
+                "issues": [
+                    {
+                        "heading": "添加 Rust 语言到选择列表",
+                        "url": "https://github.com/unbug/codelf/issues/108"
+                    },
+                    {
+                        "heading": "有时候无法得到结果",
+                        "url": "https://github.com/unbug/codelf/issues/106"
+                    },
+                    {
+                        "heading": "可以根据词频做个词云展示吗，这样对于大家用的多的能够一目了然。",
+                        "url": "https://github.com/unbug/codelf/issues/105"
+                    },
+                    {
+                        "heading": "It must be use science net to visit this web",
+                        "url": "https://github.com/unbug/codelf/issues/103"
+                    },
+                    {
+                        "heading": "use cedict data to provide a translation for common name ",
+                        "url": "https://github.com/unbug/codelf/issues/101"
+                    },
+                    {
+                        "heading": "可以在标签的右上角直接显示对应的语言信息。",
+                        "url": "https://github.com/unbug/codelf/issues/100"
+                    },
+                    {
+                        "heading": "基于IDEA开发的CODEIF插件",
+                        "url": "https://github.com/unbug/codelf/issues/99"
+                    },
+                    {
+                        "heading": "在输入每一个字符的时候,下面立即显示结果,而不需要等到回车",
+                        "url": "https://github.com/unbug/codelf/issues/89"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/darkreader/darkreader",
+                "issues": [
+                    {
+                        "heading": "[BUG] wrong build instructions",
+                        "url": "https://github.com/darkreader/darkreader/issues/5293"
+                    },
+                    {
+                        "heading": "[BUG] Mozilla Thunderbird plugin not working (again)",
+                        "url": "https://github.com/darkreader/darkreader/issues/5292"
+                    },
+                    {
+                        "heading": "[Feature Request] an option to disable the built-in website whitelist",
+                        "url": "https://github.com/darkreader/darkreader/issues/5285"
+                    },
+                    {
+                        "heading": "[Broken Website] teamcity site",
+                        "url": "https://github.com/darkreader/darkreader/issues/5284"
+                    },
+                    {
+                        "heading": "[BUG] Firefox 88.0a1 (2021-03-16) + Sync Settings completely destroys Dark Reader menu and logic",
+                        "url": "https://github.com/darkreader/darkreader/issues/5277"
+                    },
+                    {
+                        "heading": "[Performance] dl.acm.org safari 14 memory leak",
+                        "url": "https://github.com/darkreader/darkreader/issues/5262"
+                    },
+                    {
+                        "heading": "[Feature Request] Always dark for specific website",
+                        "url": "https://github.com/darkreader/darkreader/issues/5259"
+                    },
+                    {
+                        "heading": "[BUG] Extension icon displays wrong icon corresponding to ON/OFF state",
+                        "url": "https://github.com/darkreader/darkreader/issues/5249"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/listen1/listen1_chrome_extension",
+                "issues": [
+                    {
+                        "heading": "酷狗歌单分享歌单链接无法打开",
+                        "url": "https://github.com/listen1/listen1_chrome_extension/issues/502"
+                    },
+                    {
+                        "heading": "音质问题 一首歌的来源 音质默认是标准",
+                        "url": "https://github.com/listen1/listen1_chrome_extension/issues/501"
+                    },
+                    {
+                        "heading": "Deprecate xiami music",
+                        "url": "https://github.com/listen1/listen1_chrome_extension/issues/500"
+                    },
+                    {
+                        "heading": "可以实现导入歌单的记忆播放功能吗？",
+                        "url": "https://github.com/listen1/listen1_chrome_extension/issues/497"
+                    },
+                    {
+                        "heading": "Use https",
+                        "url": "https://github.com/listen1/listen1_chrome_extension/issues/495"
+                    },
+                    {
+                        "heading": "Support short url for kugou music",
+                        "url": "https://github.com/listen1/listen1_chrome_extension/issues/493"
+                    },
+                    {
+                        "heading": "QQ音乐新限制导致自动寻找源失败",
+                        "url": "https://github.com/listen1/listen1_chrome_extension/issues/492"
+                    },
+                    {
+                        "heading": "Bug: lyric scroll jumps when line interval is too short",
+                        "url": "https://github.com/listen1/listen1_chrome_extension/issues/485"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/appbaseio/dejavu",
+                "issues": [
+                    {
+                        "heading": "Specify Cluster and Index in Docker Compose File",
+                        "url": "https://github.com/appbaseio/dejavu/issues/403"
+                    },
+                    {
+                        "heading": "dockerhub tag latest needs update",
+                        "url": "https://github.com/appbaseio/dejavu/issues/402"
+                    },
+                    {
+                        "heading": "Resizeable JSON popup",
+                        "url": "https://github.com/appbaseio/dejavu/issues/399"
+                    },
+                    {
+                        "heading": "date format error",
+                        "url": "https://github.com/appbaseio/dejavu/issues/397"
+                    },
+                    {
+                        "heading": "应该添加windows下可安装的安装包文件",
+                        "url": "https://github.com/appbaseio/dejavu/issues/395"
+                    },
+                    {
+                        "heading": "Add search in columns selector",
+                        "url": "https://github.com/appbaseio/dejavu/issues/391"
+                    },
+                    {
+                        "heading": "Search multiple indicies with Dejavu",
+                        "url": "https://github.com/appbaseio/dejavu/issues/388"
+                    },
+                    {
+                        "heading": "The Chrome Extension link is broken and I cannot find it through a search",
+                        "url": "https://github.com/appbaseio/dejavu/issues/387"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/alyssaxuu/screenity",
+                "issues": [
+                    {
+                        "heading": "Issues on Edge Chromium",
+                        "url": "https://github.com/alyssaxuu/screenity/issues/72"
+                    },
+                    {
+                        "heading": "[FR] Fix videos' seekability",
+                        "url": "https://github.com/alyssaxuu/screenity/issues/71"
+                    },
+                    {
+                        "heading": "[FR] Add ability to mute the tab being recorded (but still record the audio)",
+                        "url": "https://github.com/alyssaxuu/screenity/issues/70"
+                    },
+                    {
+                        "heading": "How to improve vedio quality",
+                        "url": "https://github.com/alyssaxuu/screenity/issues/50"
+                    },
+                    {
+                        "heading": "While recording larger videos, it starts to behave abnormally",
+                        "url": "https://github.com/alyssaxuu/screenity/issues/35"
+                    },
+                    {
+                        "heading": "the circle where the webcam should be disappears",
+                        "url": "https://github.com/alyssaxuu/screenity/issues/33"
+                    },
+                    {
+                        "heading": "Native Desktop and Mobile Apps",
+                        "url": "https://github.com/alyssaxuu/screenity/issues/27"
+                    },
+                    {
+                        "heading": "Add option to upload on Youtube",
+                        "url": "https://github.com/alyssaxuu/screenity/issues/18"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "topicUrl": "https://github.com/topics/awesome",
+        "projects": [
+            {
+                "projectUrl": "https://github.com/sindresorhus/awesome",
+                "issues": [
+                    {
+                        "heading": "Resources about awesome Java Spring backend",
+                        "url": "https://github.com/sindresorhus/awesome/issues/1925"
+                    },
+                    {
+                        "heading": "Creating a GitHub Action that tweets new Awesome Entries",
+                        "url": "https://github.com/sindresorhus/awesome/issues/1920"
+                    },
+                    {
+                        "heading": "Awesome API Documentation Examples...",
+                        "url": "https://github.com/sindresorhus/awesome/issues/1883"
+                    },
+                    {
+                        "heading": "Removing broken links from lists",
+                        "url": "https://github.com/sindresorhus/awesome/issues/1810"
+                    },
+                    {
+                        "heading": "Mislead category about networking.",
+                        "url": "https://github.com/sindresorhus/awesome/issues/1764"
+                    },
+                    {
+                        "heading": "Add a Natural Science theme?",
+                        "url": "https://github.com/sindresorhus/awesome/issues/1759"
+                    },
+                    {
+                        "heading": "Lint Awesome itself",
+                        "url": "https://github.com/sindresorhus/awesome/issues/1619"
+                    },
+                    {
+                        "heading": "would love to add some free theme collection list",
+                        "url": "https://github.com/sindresorhus/awesome/issues/1570"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/vinta/awesome-python",
+                "issues": [
+                    {
+                        "heading": "code2flow looks unmaintained",
+                        "url": "https://github.com/vinta/awesome-python/issues/1740"
+                    },
+                    {
+                        "heading": "Cool work",
+                        "url": "https://github.com/vinta/awesome-python/issues/1739"
+                    },
+                    {
+                        "heading": "Wifi is unmaintained",
+                        "url": "https://github.com/vinta/awesome-python/issues/1712"
+                    },
+                    {
+                        "heading": "Better toc removel for mkdocs",
+                        "url": "https://github.com/vinta/awesome-python/issues/1686"
+                    },
+                    {
+                        "heading": "Autogenerate TOC",
+                        "url": "https://github.com/vinta/awesome-python/issues/1660"
+                    },
+                    {
+                        "heading": "Add a CHANGELOG",
+                        "url": "https://github.com/vinta/awesome-python/issues/1619"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/avelino/awesome-go",
+                "issues": [
+                    {
+                        "heading": "Investigate repositories with more than 1 year without update - 2021-03-14",
+                        "url": "https://github.com/avelino/awesome-go/issues/3529"
+                    },
+                    {
+                        "heading": "Investigate repositories with more than 1 year without update - 2021-03-07",
+                        "url": "https://github.com/avelino/awesome-go/issues/3522"
+                    },
+                    {
+                        "heading": "Color scale library",
+                        "url": "https://github.com/avelino/awesome-go/issues/3519"
+                    },
+                    {
+                        "heading": "Investigate repositories with more than 1 year without update - 2021-02-28",
+                        "url": "https://github.com/avelino/awesome-go/issues/3512"
+                    },
+                    {
+                        "heading": "Investigate repositories with more than 1 year without update - 2021-02-21",
+                        "url": "https://github.com/avelino/awesome-go/issues/3499"
+                    },
+                    {
+                        "heading": "Investigate repositories with more than 1 year without update - 2021-02-14",
+                        "url": "https://github.com/avelino/awesome-go/issues/3486"
+                    },
+                    {
+                        "heading": "Two Recommendations.",
+                        "url": "https://github.com/avelino/awesome-go/issues/3481"
+                    },
+                    {
+                        "heading": "Investigate repositories with more than 1 year without update - 2021-02-07",
+                        "url": "https://github.com/avelino/awesome-go/issues/3477"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+                "issues": [
+                    {
+                        "heading": "Remove games that aren't self-hostable",
+                        "url": "https://github.com/awesome-selfhosted/awesome-selfhosted/issues/2453"
+                    },
+                    {
+                        "heading": "Remove \"Tipboard\" and add \"Smashing\"",
+                        "url": "https://github.com/awesome-selfhosted/awesome-selfhosted/issues/2451"
+                    },
+                    {
+                        "heading": "Add µStreamer",
+                        "url": "https://github.com/awesome-selfhosted/awesome-selfhosted/issues/2446"
+                    },
+                    {
+                        "heading": "Add OhMyForm [Google Forms Alternative]",
+                        "url": "https://github.com/awesome-selfhosted/awesome-selfhosted/issues/2442"
+                    },
+                    {
+                        "heading": "Add whitebird",
+                        "url": "https://github.com/awesome-selfhosted/awesome-selfhosted/issues/2437"
+                    },
+                    {
+                        "heading": "Add svelte-feed",
+                        "url": "https://github.com/awesome-selfhosted/awesome-selfhosted/issues/2410"
+                    },
+                    {
+                        "heading": "Add kerberos.io to video streaming/camera options",
+                        "url": "https://github.com/awesome-selfhosted/awesome-selfhosted/issues/2405"
+                    },
+                    {
+                        "heading": "You should add deployify",
+                        "url": "https://github.com/awesome-selfhosted/awesome-selfhosted/issues/2393"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/papers-we-love/papers-we-love",
+                "issues": [
+                    {
+                        "heading": "Papers We Love - Rostov-on-Don",
+                        "url": "https://github.com/papers-we-love/papers-we-love/issues/616"
+                    },
+                    {
+                        "heading": "Update paperswelove.org to indicate discontinued chapters",
+                        "url": "https://github.com/papers-we-love/papers-we-love/issues/601"
+                    },
+                    {
+                        "heading": "Category for distributed machine learning framework",
+                        "url": "https://github.com/papers-we-love/papers-we-love/issues/570"
+                    },
+                    {
+                        "heading": "Merge categories: GC and memory mgt",
+                        "url": "https://github.com/papers-we-love/papers-we-love/issues/560"
+                    },
+                    {
+                        "heading": "Devise JSON metadata format for papers within the repo ",
+                        "url": "https://github.com/papers-we-love/papers-we-love/issues/374"
+                    },
+                    {
+                        "heading": "External paper links that now 404 (on going)",
+                        "url": "https://github.com/papers-we-love/papers-we-love/issues/360"
+                    },
+                    {
+                        "heading": "Consider using LFS extension for large files",
+                        "url": "https://github.com/papers-we-love/papers-we-love/issues/351"
+                    },
+                    {
+                        "heading": "A list of recently added papers",
+                        "url": "https://github.com/papers-we-love/papers-we-love/issues/310"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/Hack-with-Github/Awesome-Hacking",
+                "issues": []
+            },
+            {
+                "projectUrl": "https://github.com/jaywcjlove/awesome-mac",
+                "issues": [
+                    {
+                        "heading": "Add Neat Download Manager to Downloader list",
+                        "url": "https://github.com/jaywcjlove/awesome-mac/issues/876"
+                    },
+                    {
+                        "heading": "Add Apifox",
+                        "url": "https://github.com/jaywcjlove/awesome-mac/issues/866"
+                    },
+                    {
+                        "heading": "Add menumeters",
+                        "url": "https://github.com/jaywcjlove/awesome-mac/issues/862"
+                    },
+                    {
+                        "heading": "Add Copy'Em (Previously \"Copy'Em Paste\")",
+                        "url": "https://github.com/jaywcjlove/awesome-mac/issues/856"
+                    },
+                    {
+                        "heading": "Add RabiAPI",
+                        "url": "https://github.com/jaywcjlove/awesome-mac/issues/854"
+                    },
+                    {
+                        "heading": "Add Countdown",
+                        "url": "https://github.com/jaywcjlove/awesome-mac/issues/837"
+                    },
+                    {
+                        "heading": "Creative Convert would be nice addition",
+                        "url": "https://github.com/jaywcjlove/awesome-mac/issues/825"
+                    },
+                    {
+                        "heading": "Filmage Converter is the best video converter. You can convert videos to any formats like MOV, MP4, MKV. You can crop, rotate, and merge video clips.",
+                        "url": "https://github.com/jaywcjlove/awesome-mac/issues/815"
+                    }
+                ]
+            },
+            {
+                "projectUrl": "https://github.com/sindresorhus/awesome-nodejs",
+                "issues": [
+                    {
+                        "heading": "add esbuild",
+                        "url": "https://github.com/sindresorhus/awesome-nodejs/issues/1101"
+                    },
+                    {
+                        "heading": "Discussions",
+                        "url": "https://github.com/sindresorhus/awesome-nodejs/issues/1086"
+                    }
+                ]
+            }
+        ]
+    }
+]
