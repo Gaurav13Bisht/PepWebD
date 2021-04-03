@@ -1,0 +1,62 @@
+[
+    {
+        "teamName": "Mumbai Indians Innings",
+        "playerName": [
+            {
+                "runs": "5",
+                "ballsPlayed": "3",
+                "fours": "0",
+                "sixes": "0",
+                "strikeRate": "166.67"
+            }
+        ]
+    },
+    {
+        "teamName": "Delhi Capitals Innings",
+        "playerName": [
+            {
+                "runs": "3",
+                "ballsPlayed": "1",
+                "fours": "0",
+                "sixes": "0",
+                "strikeRate": "300.00"
+            }
+        ]
+    },
+    {
+        "teamName": "Royal Challengers Bangalore Innings",
+        "playerName": [
+            {
+                "runs": "1",
+                "ballsPlayed": "2",
+                "fours": "0",
+                "sixes": "0",
+                "strikeRate": "50.00"
+            }
+        ]
+    },
+    {
+        "teamName": "Rajasthan Royals Innings",
+        "playerName": [
+            {
+                "runs": "27",
+                "ballsPlayed": "8",
+                "fours": "0",
+                "sixes": "4",
+                "strikeRate": "337.50"
+            }
+        ]
+    },
+    {
+        "teamName": "Mumbai Indians Innings",
+        "playerName": [
+            {
+                "runs": "1",
+                "ballsPlayed": "3",
+                "fours": "0",
+                "sixes": "0",
+                "strikeRate": "33.33"
+            }
+        ]
+    }
+]
