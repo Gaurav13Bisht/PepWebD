@@ -124,5 +124,52 @@ browserPromise.then(function (browser) {
 
 
 function DisOrlikeComment(url) {
-   
+    return new Promise(function (resolve, reject) {
+        tab.goto(url)
+            .then(function () {
+                // LIKE
+                let likeSelectorPromise = tab.waitForSelector("path[d='M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z']", { visible: true });
+                return likeSelectorPromise;
+
+                // DISLIKE
+                //let likeDislikePromise = tab.waitForSelector("path[d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z']", { visible: true });
+                // return likeDislikePromise;
+            })
+            .then(function () {
+                // LIKE
+                let likedPromise = tab.click("path[d='M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z']");
+                return likedPromise;
+                // DISLIKE
+                //let dislikedPromise = tab.click("path[d='M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z']");
+                // return dislikedPromise;
+            }).then(function () {
+                let commentBoxPromise = tab.waitForSelector("div[id='placeholder-area']", { visible: true });
+                return commentBoxPromise;
+            })
+            .then(function () {
+                let clickCommentBox = tab.click("div[id='placeholder-area']");
+                return clickCommentBox;
+            }).then(function () {
+                // GOOD COMMENT
+                let typedComment = tab.type("div[id='placeholder-area']", goodcom);
+                return typedComment;
+                // BAD COMMENT :
+                // let typedComment = tab.type("div[id='placeholder-area']", badcom);
+                // return typedComment;
+            }).then(function () {
+                let clickCommentFind = tab.waitForSelector(".style-scope.ytd-button-renderer.style-primary.size-default", { visible: true });
+                return clickCommentFind;
+            }).then(function () {
+                let clickCommentBox = tab.click(".style-scope.ytd-button-renderer.style-primary.size-default");
+                return clickCommentBox;
+            }).then(function () {
+                return new Promise(function (resolve, reject) {
+                    setTimeout(() => {
+                        resolve();
+                    }, 4000);
+                })
+            }).then(function () {
+                resolve();
+            });
+    });
 }
