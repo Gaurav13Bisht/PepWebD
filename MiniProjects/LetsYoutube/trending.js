@@ -5,7 +5,7 @@ let id = "";
 let pwd = "";
 
 let goodcom = "Loved it !!";
-let badcom = "You could do way bLetsetter !";
+let badcom = "You could do way better !";
 
 let browserPromise = pup.launch({
     headless: false,
