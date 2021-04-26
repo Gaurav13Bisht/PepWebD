@@ -1,0 +1,90 @@
+body{
+    margin: 0; 
+    /* background-color: rgb(255, 250, 205); */
+    background-color: #282D3C;
+}
+
+.main-container{
+    height: 100vh;
+    width: 100vw;
+}
+
+.input-container{
+    color: #EDF1FF;
+    height: 150px;
+    border: 1px solid;
+    border-color: #939597;
+    text-align: center;
+}
+
+.task-input{
+    height: 25px;
+    width: 40%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.list-container{
+    color : #EDF1FF;
+    border-color: #939597;
+    border: 1px solid;
+    /* height: 90vh; 
+     overflow-y: scroll;
+    OR */
+    min-height: 90vh;
+    cursor: pointer;
+}
+
+.task-list{
+    font-size: 1.4rem;
+    font: bold;
+}
+
+ /* SIR's CSS */
+/* body{
+    margin: 0;
+}
+.main-container{
+    background-color: #15314b;
+    color: white;
+}
+.main-container, .input-container, .task-container{
+border: 1px solid;
+}
+
+.input-container{
+ height: 20vh;
+ padding-top: 5vh;
+}
+.task-container{
+    min-height: 80vh;
+   } 
+   .task-list{
+    margin: auto;
+    width: 40%;
+   }
+.task-input{
+    height: 4rem;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    display: block;
+}
+.tasklist-item {
+    font-size: 1.5rem;
+    list-style: none;
+    width: 100%;
+    cursor: pointer;
+     background-color: #a5b0bb;
+     margin-top: 10px;
+     height: 3rem;
+     text-align: center;
+     padding-top: 0.7rem;
+}
+@media only screen and (max-width: 768px){
+    .task-list, 
+    .task-input{
+        width: 70%;
+    }
+} */

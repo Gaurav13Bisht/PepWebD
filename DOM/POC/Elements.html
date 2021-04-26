@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- This meta data is only for the optimisation of the search engine i.e. when we search something on the web, it
+    searches in every webpages's meta data and fetch the pages correponding to the searched data. -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block Elements</title>
+    <style>
+        .d1 {
+            height: 5rem;
+            width: 5rem;
+        }
+
+        .d2 {
+            display: inline-block;
+        }
+
+        .saffron {
+            background-color: #ff9933;
+        }
+
+        .white {
+            background-color: white;
+        }
+
+        .green {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>1. Block Elements :</h1>
+    <p>
+        The elements which occupy the complete horizontal space and does not let any other element occupy their
+        horizontal space.
+        We can specify height and width of these elements. E.G. DIV tags
+    </p>
+    <div class='d1 saffron'>111111</div>
+    <div class='d1 white'>22222</div>
+    <div class='d1 green'>333333</div>
+    <br>
+    <h1>2. Inline Elements :</h1>
+    <p>
+        The elements which let others occupy their horizontal space.
+        We CANNOT specify height and width of these elements.
+        Even if we specify it dont give any error tho. E.G. SPAN
+    </p>
+    <span class='d1 saffron'>11111111</span>
+    <span class='d1 white'>22222222</span>
+    <span class='d1 green'>33333333</span>
+    <br>
+    <h1>3. Inline-Block Elements :</h1>
+    <p>
+        The elements have mixed properties of both inline and block elements.
+        i.e. these elements lets other use their horizontal space and also able to get specified their height and width.
+        It is used by 'display' keyword in css and can be put on either block or inline element.
+    </p>
+    <span class='d1 d2 saffron'>11111111</span>
+    <span class='d1 d2 white'>22222222</span>
+    <span class='d1 d2 green'>33333333</span>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>px</h1>
+    <span style="font-size: 100px;"> 100px</span>
+    <!-- px depends upon the resolution of the device screen -->
+
+    <div style="font-size : 50px;">parent1
+
+        <span style="font-size: 4em;">em</span>
+        <!-- 1em is equal to the font-size of its closest parent. In this case, 1em = 50px, so 4em = 200px. -->
+
+    </div>
+
+    <div style="font-size : 50px;">parent2
+
+        <span style="font-size: 400%;">%</span>
+        <!-- % and em are almost same , they behave same meaning they both take the closest parent font-size and are almost same in size. -->
+        <!-- 100 % == 1em --->
+    </div>
+
+    <span style="font-size: 1rem;"> rem</span>
+    <!-- 1 rem is the fixed size given to the HTML according to the device screen. It is advised to use REM since it gets adjusted for diff Screen size !!-->
+    <br>
+    <br>
+    <div style="width : 100vw; height : 20vh; background-color: red;">h*w = 20 * 100</div>
+    <div style="width : 50vw; height : 80vh; background-color:orange;">h*w = 80 * 50 </div>
+</body>
+
+</html>
