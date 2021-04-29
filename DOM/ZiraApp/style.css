@@ -14,87 +14,120 @@ body {
 }
 
 .ticket-container {
-   min-height: 88vh;
-   background-color: #f2f2f2;
-   padding: 2rem;
-   /* padding is the distance between the element and its container/border i.e. the extra space between the borders and content boundary in all four sides.  */
-   
+    min-height: 88vh;
+    background-color: #f2f2f2;
+    padding: 2rem;
+    position: relative;
 }
 
 .filter-container, .add-delete-container {
-   margin-top: 2vh;
-   margin-left: 8vw;
-   background-color: #444;
-   height: 8vh;
-   /* But with these prop., both the containers will not come side by side but one below other because they are not inline elements. */
-    /* So to make them appear side by side / inline we will use display:flex in their parent container i.e. navbar */
+    margin-top: 2vh;
+    margin-left: 8vw;
+    background-color: #444;
+    height: 8vh;
 }
-
 .filter-container {
-   width: 18vw;
-   display: flex;
+    width: 18vw;
+    display: flex;
 }
-
 .add-delete-container {
-   width: 9vw;
-   display: flex;
-   padding: 0.7rem;
+    width: 9vw;
+    display: flex;
 }
-
 .filter, .add, .delete {
-   height: 100%;
+    height: 100%;
 }
-
 .filter {
-   width: 25%;
-
+    width: 25%;
+    
 }
-
 .add, .delete {
-   width: 50%;
+    width: 50%;
+    height: 100%;
 }
 
 .pink-color-btn,
 .blue-color-btn,
-.black-color-btn,
+.yellow-color-btn,
 .green-color-btn {
-   margin-left: 33%;
-   margin-top: 33%;
-   border-radius: 3px;
-   display: block;
-   width: 34%;
-   height: 34%;
+    margin: calc(8vh * 0.25) calc(4.5vw * 0.25) calc(8vh * 0.25) calc(4.5vw * 0.25);
+    border-radius: 3px;
+    display: block;
+    width: 50%;
+    height: 50%;
+}
+.pink-color-btn, .pink-modal-filter {
+    background-color: pink;
 }
 
-.pink-color-btn {
-   background-color: pink;
+.yellow-color-btn, .yellow-modal-filter {
+    background-color: yellow;
 }
 
-.black-color-btn {
-   background-color: black;
+.green-color-btn, .green-modal-filter {
+    background-color: green;
 }
-
-.green-color-btn {
-   background-color: green;
+.blue-color-btn, .blue-modal-filter {
+    background-color: blue;
 }
-
-.blue-color-btn {
-   background-color: blue;
-}
-
-
 .action-btn {
-   width: 100%;
-   height: 100%;
-   text-align: center;
-   color: #ffffff;
-   padding-top: 0.7rem;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    display: block;
+    background-color: white;
+    margin: calc(8vh * 0.25) calc(4.5vw * 0.25) calc(8vh * 0.25) calc(4.5vw * 0.25);
 }
-
-.action-btn:hover {
-   background-color: black;
+.add:hover, .delete:hover {
+    background-color: black;
+    cursor: pointer;
 }
-
 .filter:hover {
-   background-color: black;
-} 
+    background-color: black;
+    cursor: pointer;
+}
+.modal {
+    height: 18rem;
+    width: 35rem;
+    background-color: white;
+    display: flex;
+    box-shadow: 0px 0px 50px 10px grey;
+    position: absolute;
+    top: calc((88vh - 18rem) / 2);
+    left: calc((100vw - 35rem) / 2);
+}
+
+.task-to-be-added {
+    height: 100%;
+    width: 70%;
+}
+.priority-list {
+    height: 100%;
+    width: 30%;
+    background-color: #444;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.modal-filter {
+    width: 100%;
+    height: 20%;
+}
+.modal-filter:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.modal-filter.active {
+    border: 5px solid;
+}
+
+.task-to-be-added {
+    padding: 3rem;
+    outline: none;
+}
+
+.placeholder {
+    color: gray;
+}
