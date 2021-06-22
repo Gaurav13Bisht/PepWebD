@@ -5,6 +5,7 @@ let capBtn = document.querySelector("button#capture");
 let filters = document.querySelectorAll(".filter")
 let zoomin = document.querySelector(".zoom-in");
 let zoomout = document.querySelector(".zoom-out")
+let gallerybtn = document.querySelector("#gallery");
 let constraints = { video: true, audio: false };
 let mediaRecorder;
 let isRecording = false;
@@ -13,6 +14,10 @@ let chunks = [];
 let minzoom = 1;
 let maxzoom = 3;
 let currzoom = 1;
+
+gallerybtn.addEventListener("click", function () {
+  location.assign("gallery.html")
+})
 let filter = "";
 
 for (let i = 0; i < filters.length; i++) {
@@ -76,16 +81,16 @@ navigator.mediaDevices.getUserMedia(constraints).then(function (mediaStream) {
 
   mediaRecorder.addEventListener("stop", function () {
     let blob = new Blob(chunks, { type: "video/mp4" });
+    addMedia("video", blob)
+    // chunks = [];
 
-    chunks = [];
+    // let url = URL.createObjectURL(blob);
 
-    let url = URL.createObjectURL(blob);
-
-    let a = document.createElement("a");
-    a.href = url;
-    a.download = "RecordedVideo.mp4";
-    a.click();
-    a.remove();
+    // let a = document.createElement("a");
+    // a.href = url;
+    // a.download = "video.mp4";
+    // a.click();
+    // a.remove();
   });
 });
 
@@ -104,11 +109,12 @@ function capture() {
     ctx.fillStyle = filter;
     ctx.fillRect(0, 0, c.width, c.height)
   }
-  let a = document.createElement("a");
-  a.download = "Snap.jpg";
-  a.href = c.toDataURL();
-  a.click();
-  a.remove();
+  // let a = document.createElement("a");
+  // a.download = "image.jpg";
+  // a.href = c.toDataURL();
+  addMedia("img", c.toDataURL())
+  // a.click();
+  // a.remove();
 }
 function applyfilter(filterColor) {
   let filterdiv = document.createElement("div")

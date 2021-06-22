@@ -124,3 +124,18 @@ video {
     transform: scale(1);
   }
 }
+
+
+#gallery {
+  position: fixed;
+  z-index: 3;
+  right: 5.3rem;
+  border-radius: 0.8rem;
+  height: 70px;
+  width: 70px;
+  padding: 10px;
+  bottom: 60px;
+  background : url(/gallery-image.png);
+  background-size: cover;
+  /* background-blend-mode: soft-light; */
+}
