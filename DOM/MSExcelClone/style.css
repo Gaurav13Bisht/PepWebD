@@ -25,7 +25,8 @@ body {
 }
 .menu-bar {
     display: flex;
-    flex-direction: row;
+    flex-direction: row;   
+    /* So that all the inner elements of this class will be aligned in same row*/
     height: 5vh;
     background-color: #217346;
 }
@@ -35,8 +36,11 @@ body {
     padding-left: 0.7rem;
     padding-right: 0.7rem;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
+    /*  ^ horizontal align */
+
     align-items: center;
+    /* vertical align */
 }
 .menu-bar-item.selected {
     background-color: #fff;
@@ -137,7 +141,8 @@ body {
     width: calc(100vw - 25px);
     border: 1px solid lightgray;
     display: flex;
-    flex-direction: row;
+    flex-direction: row;   
+    /* Therefore all the cloumns added by script.js according to column name algo, they get placed is the same row of this column and overflow hidden is there */
     overflow: hidden;
 }
 #rows {

@@ -113,7 +113,7 @@
 //         console.log(k);
 //     }
 // }
-let arr = new Array(1, 2, 3, 4, 5, 6, 7, 8, 10, 12, 14, 16, 18);
+// let arr = new Array(1, 2, 3, 4, 5, 6, 7, 8, 10, 12, 14, 16, 18);
 // for(i in arr){
 //     console.log(i);   // INDEXES
 // }
@@ -207,8 +207,8 @@ let arr = new Array(1, 2, 3, 4, 5, 6, 7, 8, 10, 12, 14, 16, 18);
 // IMPORTANT : If an Object's all keys are integer than it acts as an Array or is an Array.
 
 // Proof that Array is also object
-let arr8 = [1, 2, 3, 4];
-arr8["abc"] = "Hello";   // This will work, but this is a property of Object therefore Array is also an Object.
+// let arr8 = [1, 2, 3, 4];
+// arr8["abc"] = "Hello";   // This will work, but this is a property of Object therefore Array is also an Object.
 // console.log(Object.keys(arr8));
-console.log(arr8);
+// console.log(arr8);
 

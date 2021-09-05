@@ -355,6 +355,13 @@ $(".menu-selector").change(function (e) {
     updateCellData(key, value);
 });
 function updateCellData(property, value) {
+    // We have taken 2 parameters where one is property type and ther is its value
+    // we simply check if the value matches that to the default properties
+    // If it do not matches then we simply add this cell having row
+    // id and col id into our celldata
+    // Now if the value matches the default properties we simply check
+    // whether all the propertues matches with the default prop and if
+    // it does then we remove the whole cell from the celldata.
     let currCellData = JSON.stringify(cellData);
     if (value != defaultProperties[property]) {
         $(".input-cell.selected").each(function (index, data) {
@@ -730,6 +737,7 @@ function openFile() {
             loadCurrentSheet();
             inputFile.remove();
         }
+        
     });
 }
 
